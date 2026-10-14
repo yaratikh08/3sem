@@ -1,4 +1,4 @@
-#include "ConstantGenerator.h"
+﻿#include "ConstantGenerator.h"
 
 namespace miit::algebra
 {

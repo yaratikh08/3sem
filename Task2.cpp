@@ -1,4 +1,4 @@
-#include "Task2.h"
+﻿#include "Task2.h"
 
 namespace miit::algebra
 {

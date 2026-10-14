@@ -1,4 +1,4 @@
-#include "SequenceGenerator.h"
+﻿#include "SequenceGenerator.h"
 #include <stdexcept>
 
 namespace miit::algebra

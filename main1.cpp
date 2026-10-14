@@ -1,12 +1,13 @@
+﻿#include <clocale>
 #include <iostream>
 #include <limits>
 #include <string>
 
-#include "../Library/ConstantGenerator.h"
-#include "../Library/FunctionGenerator.h"
-#include "../Library/RandomGenerator.h"
-#include "../Library/Task1.h"
-#include "../Library/Task2.h"
+#include "ConstantGenerator.h"
+#include "FunctionGenerator.h"
+#include "RandomGenerator.h"
+#include "Task1.h"
+#include "Task2.h"
 
 using namespace miit::algebra;
 
@@ -79,6 +80,8 @@ int runTask(
 
 int main()
 {
+    setlocale(LC_ALL, "Russian");
+
     int rows{};
     int columns{};
     int modeValue{};
@@ -114,7 +117,7 @@ int main()
             int value{};
             readInt("Введите элемент: ", value);
             return value;
-        });
+            });
         return runTask(rows, columns, generator, taskMode);
     }
     case GenerationMode::Constant:
