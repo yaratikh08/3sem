@@ -1,4 +1,4 @@
-#include "FunctionGenerator.h"
+﻿#include "FunctionGenerator.h"
 #include <stdexcept>
 
 namespace miit::algebra

@@ -1,4 +1,4 @@
-#include "Matrix.h"
+﻿#include "Matrix.h"
 #include <algorithm>
 #include <ios>
 #include <ostream>
@@ -11,14 +11,14 @@ namespace miit::algebra
 {
     Matrix::Matrix()
         : rowCount(0),
-          columnCount(0)
+        columnCount(0)
     {
     }
 
     Matrix::Matrix(const std::size_t rows, const std::size_t columns)
         : rowCount(rows),
-          columnCount(columns),
-          data(rows * columns)
+        columnCount(columns),
+        data(rows* columns)
     {
     }
 
@@ -28,8 +28,8 @@ namespace miit::algebra
         const int value
     )
         : rowCount(rows),
-          columnCount(columns),
-          data(rows * columns, value)
+        columnCount(columns),
+        data(rows* columns, value)
     {
     }
 
